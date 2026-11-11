@@ -1,0 +1,9 @@
+{
+  "title": "Paper Boat",
+  "milestones": [
+    { "id": "M0", "name": "Skeleton", "demo": "`npm start` prints the version" },
+    { "id": "M1", "name": "Import", "demo": "a CSV of 1,000 rows lands in the database" },
+    { "id": "M2", "name": "Report", "demo": "the weekly PDF opens and the totals match" }
+  ],
+  "checks": ["tests", "lint"]
+}
